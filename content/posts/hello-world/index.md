@@ -30,23 +30,23 @@ if __name__ == "__main__":
 
 ## Mermaid 流程图示例
 
-```mermaid
+{{< mermaid >}}
 graph TD
     A[写 Markdown] --> B[Hugo 构建]
     B --> C[推送 GitHub]
     C --> D[GitHub Pages 部署]
-    D --> E[博客上线 🎉]
-```
+    D --> E[博客上线]
+{{< /mermaid >}}
 
 ## 数学公式示例
+
+{{< katex >}}
 
 行内公式：$E = mc^2$
 
 块级公式：
 
-$$
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-$$
+$$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
 
 ---
 
