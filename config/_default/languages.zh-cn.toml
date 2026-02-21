@@ -1,0 +1,16 @@
+languageCode = "zh-CN"
+languageName = "中文"
+weight = 1
+title = "Ruofei's Blog"
+
+[params]
+  displayName = "Ruofei"
+  isoCode = "zh-CN"
+
+[params.author]
+  name = "Ruofei Wang"
+  headline = "Tech & Life"
+  bio = "记录技术与生活"
+  links = [
+    { github = "https://github.com/ayanesakura" },
+  ]

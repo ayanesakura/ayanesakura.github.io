@@ -1,0 +1,8 @@
+theme = "blowfish"
+baseURL = "https://ayanesakura.github.io/"
+defaultContentLanguage = "zh-cn"
+enableRobotsTXT = true
+[pagination]
+  pagerSize = 10
+summaryLength = 30
+enableEmoji = true
