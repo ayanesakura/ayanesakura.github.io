@@ -9,6 +9,8 @@ rssFullContent = true
     subtitle = "记录技术与生活"
 
 [article]
+    math = true
+
     [article.license]
         enabled = false
 
@@ -26,4 +28,4 @@ rssFullContent = true
 
 [colorScheme]
     toggle = true
-    default = "light"
+    default = "dark"

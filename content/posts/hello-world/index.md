@@ -1,6 +1,7 @@
 ---
 title: "Hello World - 博客搭建记录"
 date: 2026-02-21
+math: true
 description: "使用 Hugo + Stack 搭建个人博客的过程记录"
 tags: ["Hugo", "博客", "教程"]
 categories: ["技术"]

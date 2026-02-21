@@ -1,0 +1,5 @@
+KaTeX = [
+    { src = "/vendor/katex/katex.min.css", type = "style" },
+    { src = "/vendor/katex/katex.min.js", type = "script", defer = true },
+    { src = "/vendor/katex/contrib/auto-render.min.js", type = "script", defer = true },
+]
