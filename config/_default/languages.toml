@@ -1,0 +1,7 @@
+[zh-cn]
+    languageName = "简体中文"
+    title        = "Ruofei's Blog"
+    weight       = 1
+
+    [zh-cn.params.sidebar]
+        subtitle = "记录技术与生活"

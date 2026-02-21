@@ -1,8 +1,13 @@
-theme = "blowfish"
-baseURL = "https://ayanesakura.github.io/"
+baseURL                = "https://ayanesakura.github.io/"
+languageCode           = "zh-cn"
+title                  = "Ruofei's Blog"
 defaultContentLanguage = "zh-cn"
-enableRobotsTXT = true
+hasCJKLanguage         = true
+theme                  = "hugo-theme-stack"
+
 [pagination]
-  pagerSize = 10
-summaryLength = 30
-enableEmoji = true
+    pagerSize = 10
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"

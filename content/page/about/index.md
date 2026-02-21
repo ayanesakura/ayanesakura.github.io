@@ -1,7 +1,12 @@
 ---
-title: "关于我"
-date: 2026-02-21
-layout: "simple"
+title: "关于"
+layout: "page"
+slug: "about"
+menu:
+    main:
+        weight: -50
+        params:
+            icon: user
 ---
 
 👋 你好，我是 Ruofei。
@@ -12,6 +17,3 @@ layout: "simple"
 - 🤖 大语言模型 (LLM) & AI 应用
 - 💻 后端开发
 - 🎮 游戏
-
-## 联系方式
-- GitHub: [wangruofei](https://github.com/wangruofei)

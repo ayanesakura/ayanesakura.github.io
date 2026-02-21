@@ -1,46 +1,29 @@
-colorScheme = "blowfish"
-defaultAppearance = "dark"
-autoSwitchAppearance = true
-enableSearch = true
-enableCodeCopy = true
-mainSections = ["posts"]
-disableImageOptimization = false
+mainSections   = ["posts"]
+rssFullContent = true
 
-[homepage]
-  layout = "profile"
-  homepageImage = "img/avatar.jpg"
-  showRecent = true
-  showRecentItems = 6
-  showMoreLink = true
-  showMoreLinkDest = "/posts"
-  cardView = true
-  cardViewScreenWidth = false
+[footer]
+    since = 2026
+
+[sidebar]
+    emoji    = "💻"
+    subtitle = "记录技术与生活"
 
 [article]
-  showDate = true
-  showViews = false
-  showLikes = false
-  showDateUpdated = true
-  showAuthor = true
-  showBreadcrumbs = true
-  showDraftLabel = true
-  showEdit = false
-  showHeadingAnchors = true
-  showPagination = true
-  showReadingTime = true
-  showTableOfContents = true
-  showTaxonomies = true
-  showWordCount = true
-  showSummary = true
-  sharingLinks = ["twitter", "reddit", "linkedin", "telegram"]
+    [article.license]
+        enabled = false
 
-[list]
-  showBreadcrumbs = true
-  showTableOfContents = false
-  showSummary = true
-  groupByYear = true
-  cardView = true
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+    ]
+    page = [{ type = "toc" }]
 
-[taxonomy]
-  showTermCount = true
-  cardView = false
+[comments]
+    enabled = false
+
+[colorScheme]
+    toggle = true
+    default = "light"
